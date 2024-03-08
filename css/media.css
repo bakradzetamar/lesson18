@@ -1,0 +1,37 @@
+@media  (max-width: 600px) {
+   .ham-menu {
+    display: block;
+   }
+   .navigation1 {
+    display: none;}
+
+    .ul-item{
+      flex-direction: column;
+    }
+   
+
+   
+
+   .off-screen-menu{
+    background-image: url(../imges/background.png);
+    width: 100%;
+   
+    opacity:0.5;
+    height: 100vh;
+    width: 100%;
+    max-width: 450px;
+    position: fixed;
+    top: 0;
+    right: -450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3rem;
+    transition: 0.3s ease;
+   }
+   }
+
+ 
+ 
